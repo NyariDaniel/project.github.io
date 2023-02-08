@@ -1,5 +1,8 @@
 body{
     background-color: orangered;
-    border: 100%;
-    width: 100%
+}
+#kor{
+    border-radius: 50%;
+    width: 100px;
+    height:100px;
 }
