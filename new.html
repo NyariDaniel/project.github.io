@@ -14,5 +14,18 @@
     </h1>
     <p>Helló!</p>
 
+    <button>Nyomj meg, hogy vátozzon meg a szöveg</button>
+    
+    <script>
+
+        let btn = document.querySelector('button');
+        let uzenet = document.querySelector('p');
+
+        btn.addEventListener('click', function (){
+            uzenet.innerText = "Köszönöm, hogy megnyomtad a gombot!"
+        })
+
+    </script>
+
 </body>
 </html>
