@@ -13,17 +13,31 @@
     <h1>
         Üzenet Máriótól:
     </h1>
+
     <p>Helló!</p>
 
+    <h1>
+        Csontos Gyula Zoltánnak:
+    </h1>
+
+    <p id="nyugodj"></p>
+
     <button id="gomb">Nyomj meg, hogy mutassa a Youtube csatornám linkjét!</button>
+    <button id="RIP"> Nyomj meg, ha szeretnél(Nem muszály!) </button>
     
     <script>
 
         let btn = document.getElementById('gomb');
+        let btn2 = document.getElementById('RIP')
         let uzenet = document.querySelector('p');
+        let uzenet2 = document.getElementById('nyugodj')
 
         btn.addEventListener('click', function (){
             uzenet.innerText = "https://www.youtube.com/channel/UC9Jn1PQNHhCbqPVZ7p2CHfw <=(Másold ki a linket, ha meg szertnéd nézni.)"
+        })
+
+        btn2.addEventListener('click', function (){
+            uzenet2.innerText = "Nyugodj békében Csontos Gyula Zoltán! (Üzente: Csontos Márió Dávid)"
         })
 
     </script>
